@@ -1,0 +1,27 @@
+{
+  "name": "birthday-website",
+  "version": "1.0.0",
+  "description": "Interactive Birthday Card Website with animations and music",
+  "main": "index.html",
+  "scripts": {
+    "start": "python -m http.server 8080",
+    "dev": "python -m http.server 3000",
+    "build": "echo 'Static website - no build needed'",
+    "deploy": "echo 'See DEPLOY.md for deployment instructions'"
+  },
+  "keywords": [
+    "birthday",
+    "card",
+    "animation",
+    "interactive",
+    "website",
+    "celebration"
+  ],
+  "author": "NPKhanh14",
+  "license": "MIT",
+  "homepage": "https://github.com/NPKhanh14/WED_SN/",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/NPKhanh14/WED_SN.git"
+  }
+}
