@@ -41,9 +41,11 @@ document.addEventListener('DOMContentLoaded', function () {
     };
 
     // Nhiều lần thử để bắt đầu nhạc
+    startMusic(); // Cố gắng chạy ngay lập tức
+    setTimeout(startMusic, 10);
+    setTimeout(startMusic, 50);
     setTimeout(startMusic, 100);
     setTimeout(startMusic, 500);
-    setTimeout(startMusic, 1000);
 
     // Dự phòng: bắt đầu nhạc khi người dùng tương tác
     const setupMusicFallback = () => {
