@@ -89,7 +89,7 @@ document.addEventListener('DOMContentLoaded', function () {
 
     // Nút xóa
     clearBtn.addEventListener('click', function () {
-        currentPassword = '';
+        currentPassword = currentPassword.slice(0, -1);
         updatePasswordDisplay();
         playClickSound();
     });
